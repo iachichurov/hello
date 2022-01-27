@@ -3,7 +3,7 @@
 /*Вывод таблиц температуры по Фаренгейту и Цельсию от 0 до 300 F*/
 
 int main() {
-  int fahr, celcius;
+  float fahr, celcius;
   int lower, upper, step;
 
   lower = 0; /*нижняя граница температуры*/
