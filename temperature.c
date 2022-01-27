@@ -18,13 +18,13 @@ int main() {
     printf ("%6.0f %6.1f\n", fahr, celcius);
     fahr = fahr + step;
   }
-  
+
   celcius = lower;
   printf("Temperature table C to F\n");
 
   while (celcius <= upper) {
     fahr = (celcius * (9.0/5.0)) + 32;
-    printf ("%6.0f %6.1f\n", celcius, fahr);
+    printf ("%6.0f %6.0f\n", celcius, fahr);
     celcius = celcius + step;
   }
 }
