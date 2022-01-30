@@ -1,5 +1,6 @@
 /*Подсчет строк во входном потоке*/
-#include <stdio.h>
+
+/*#include <stdio.h>
 
 main()
 {
@@ -11,4 +12,22 @@ main()
     ++nl;
   }
   printf("%d\n", nl);
+}
+*/
+
+/*Копирование потока с заменой символов*/
+
+#include <stdio.h>
+
+main()
+{
+  char c;
+
+  while ((c = getchar()) != EOF)
+  {
+    if (c == '\t')
+    c = 'a';
+    putchar(c);
+  }
+  c = getchar();
 }
