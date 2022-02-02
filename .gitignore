@@ -1,0 +1,3 @@
+#Ignore files with .exe and .obj extension
+/*.exe
+/*.obj
